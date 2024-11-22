@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Profile Card App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This **Profile Card App** is a simple and responsive web application built using **React.js** and **CSS** for displaying user profile cards. Each card contains basic information about a user such as their name, bio, email, age, and phone number. The app is designed to adapt to various screen sizes using **CSS Grid** and **Media Queries**, ensuring a smooth user experience on both desktop and mobile devices.
 
-In the project directory, you can run:
+### Key Features:
+- **Responsive Design**: Utilizes **CSS Grid** and **Media Queries** for a responsive layout that adjusts based on the screen size. The profile cards are displayed in multiple columns on larger screens and a single column on smaller screens (e.g., mobile).
+- **User Profile Display**: Each profile card contains a user's photo, name, bio, and contact details. Icons are used for email, age, and phone number, which are revealed when clicked by the user.
+- **Mobile-first Approach**: Optimized for mobile devices first, ensuring that users can easily view and interact with the app on phones and tablets.
+- **React Integration**: The app is built using **React.js**, leveraging the component-based architecture for easy reusability and maintainability.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**: For building the user interface with reusable components.
+- **CSS**: For styling the app, including **CSS Grid** and **Media Queries** for responsiveness.
+- **React Icons**: Used for displaying icons (e.g., for age, email, and phone).
+- **Git**: Version control for managing and tracking changes in the codebase.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API Used
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **[RandomUser.me API](https://randomuser.me/)**: A free API for generating random user data that can be used to populate the profiles dynamically.
